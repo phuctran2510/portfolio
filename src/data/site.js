@@ -9,7 +9,7 @@ export const instructor = {
   phone:    '0976 353 605',
   scholar:  'https://scholar.google.com',
   avatar:   'PT',
-  bio:      'Giảng viên chuyên ngành Mạng Máy Tính & Viễn thông. Nghiên cứu về Mạng Thế Hệ Mới (NGN), IPv6, Software-Defined Networking, VoIP và bảo mật hệ thống mạng. Hướng dẫn nhiều đề tài NCKH và luận văn tốt nghiệp.',
+  bio:      'Giảng viên chuyên ngành Mạng Máy Tính & Viễn thông. Nghiên cứu về Mạng Thế Hệ Mới (NGN), IPv6, Software-Defined Networking, VoIP và bảo mật hệ thống mạng, Internet of Things , Edge AI. ',
   tags:     ['IPv6 / NGN', 'Software-Defined Networking', 'VoIP / Asterisk', 'Python', 'Network Security', 'QoS'],
   stats:    [
     { num: '10+',  lbl: 'Năm giảng dạy' },

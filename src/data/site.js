@@ -1,0 +1,150 @@
+export const instructor = {
+  name:     'Trần Vĩnh Phúc',
+  nameEn:   'Tran Vinh Phuc',
+  title:    'Giảng viên Khoa Công nghệ Thông tin',
+  dept:     'Khoa Công nghệ Thông tin',
+  uni:      'Trường Đại học Đà Lạt (DLU)',
+  city:     'Phường Xuân Hương - Đà Lạt, Lâm Đồng, Việt Nam',
+  email:    'phuctv@dlu.edu.vn',
+  phone:    '0976 353 605',
+  scholar:  'https://scholar.google.com',
+  avatar:   'PT',
+  bio:      'Giảng viên chuyên ngành Mạng Máy Tính & Viễn thông. Nghiên cứu về Mạng Thế Hệ Mới (NGN), IPv6, Software-Defined Networking, VoIP và bảo mật hệ thống mạng, Internet of Things , Edge AI. ',
+  tags:     ['IPv6 / NGN', 'Software-Defined Networking', 'VoIP / Asterisk', 'Python', 'Network Security', 'QoS', 'Edge AI', 'AIoT'],
+  stats:    [
+    { num: '10+',  lbl: '' },
+    { num: '3',    lbl: '' },
+    { num: '15+',  lbl: '' },
+    { num: '200+', lbl: '' },
+  ],
+}
+
+export const courses = [
+  {
+    id:    'ngn',
+    num:   '01',
+    cat:   'Mạng Thế Hệ Mới',
+    icon:  'N',
+    title: 'NGN / IPv6 Lab',
+    color: '#2dd4bf',
+    desc:  'Triển khai hạ tầng mạng IPv6 NGN hoàn chỉnh: OSPFv3, BGP multi-homing, PIM-SM Multicast, QoS, Cisco CME và FreePBX VoIP trên EVE-NG.',
+    tags:  ['IPv6', 'OSPFv3', 'BGP', 'VoIP', 'QoS', 'EVE-NG'],
+    links: [
+      { label: 'tranvinhphuc.io.vn', url: 'https://ngn.tranvinhphuc.io.vn/', slug: 'ngn.tranvinhphuc.io.vn' },
+      { label: 'phuctran.io.vn',     url: 'https://ngn.phuctran.io.vn/',     slug: 'ngn.phuctran.io.vn' },
+    ],
+  },
+  {
+    id:    'sdn',
+    num:   '02',
+    cat:   'Mạng Định Nghĩa Bằng Phần Mềm',
+    icon:  'S',
+    title: 'SDN / Mininet Lab',
+    color: '#818cf8',
+    desc:  'Software-Defined Networking với Mininet, OpenFlow và Ryu controller: từ topology cơ bản đến DDoS detection và monitoring dashboard real-time.',
+    tags:  ['SDN', 'OpenFlow', 'Mininet', 'Ryu', 'Python', 'Fat Tree'],
+    links: [
+      { label: 'tranvinhphuc.io.vn', url: 'https://sdn.tranvinhphuc.io.vn/', slug: 'sdn.tranvinhphuc.io.vn' },
+      { label: 'phuctran.io.vn',     url: 'https://sdn.phuctran.io.vn/',     slug: 'sdn.phuctran.io.vn' },
+    ],
+  },
+  {
+    id:    'python',
+    num:   '03',
+    cat:   'Lập Trình',
+    icon:  'P',
+    title: 'Python Mastery',
+    color: '#fb923c',
+    desc:  'Lập trình Python từ cơ bản đến nâng cao: cấu trúc dữ liệu, OOP, xử lý file, web scraping, data analysis với Pandas và ứng dụng thực tế.',
+    tags:  ['Python 3', 'OOP', 'Data Analysis', 'Pandas', 'Flask', 'Automation'],
+    links: [
+      { label: 'tranvinhphuc.io.vn', url: 'https://python.tranvinhphuc.io.vn/', slug: 'python.tranvinhphuc.io.vn' },
+      { label: 'phuctran.io.vn',     url: 'https://python.phuctran.io.vn/',     slug: 'python.phuctran.io.vn' },
+    ],
+  },
+]
+
+export const research = [
+  {
+    num: '01', color: '#2dd4bf',
+    title: 'Mạng Thế Hệ Mới & IPv6',
+    desc:  'Nghiên cứu triển khai IPv6 trong các mạng doanh nghiệp và ISP, bao gồm lộ trình migration từ IPv4, cơ chế coexistence (Dual-Stack, 6in4, NAT64) và tối ưu hóa hiệu suất mạng NGN.',
+    kws:   ['IPv6 Migration', 'OSPFv3', 'MP-BGP', 'MPLS 6VPE', 'NAT64/DNS64', 'Dual-Stack'],
+  },
+  {
+    num: '02', color: '#818cf8',
+    title: 'Software-Defined Networking',
+    desc:  'Ứng dụng SDN/OpenFlow để tự động hóa quản lý mạng, triển khai QoS động và phát hiện tấn công mạng bằng machine learning tích hợp với Ryu/ONOS controller.',
+    kws:   ['OpenFlow', 'Ryu Controller', 'ONOS', 'Network Automation', 'DDoS Detection', 'ML + SDN'],
+  },
+  {
+    num: '03', color: '#fb923c',
+    title: 'VoIP & Unified Communications',
+    desc:  'Chất lượng dịch vụ VoIP (MOS, jitter, packet loss), triển khai Cisco CME và FreePBX/Asterisk, tích hợp WebRTC và bảo mật SIP TLS/SRTP trong môi trường IPv6.',
+    kws:   ['SIP Protocol', 'RTP/SRTP', 'QoS LLQ', 'WebRTC', 'Asterisk', 'VoIP Security'],
+  },
+  {
+    num: '04', color: '#f87171',
+    title: 'Bảo Mật Mạng & AI',
+    desc:  'Phân tích và phòng thủ tấn công IPv6 (RA flood, DHCPv6 spoofing, BGP hijack), xây dựng SIEM và ứng dụng AI/ML để phát hiện anomaly trong lưu lượng mạng.',
+    kws:   ['IPv6 First-Hop Sec', 'Zero Trust', 'SIEM/ELK', 'Anomaly Detection', 'Scapy', 'Fail2ban'],
+  },
+  {
+    num: '05', color: '#2804c7',
+    title: 'AIoT (Artificial Intelligence of Things)',
+    desc:  'AIoT = thiết bị IoT có khả năng “thông minh” nhờ AI.',
+    kws:   ['IoT cơ bản', 'AI cơ bản'],
+  },
+]
+
+export const publications = [
+  {
+    year: '2026',
+    title: 'TrustAware-X: Integrating Game-Theoretic Incentives, Reinforcement Learning, and Shapley Value Fair Compensation in Blockchain-Secured Federated Learning',
+    authors: 'Phuc Tran-Vinh, Thai-Minh Truong, and Cuong Pham-Quoc',
+    venue: 'Journal of Combinatorial Optimization',
+    detail: '',
+    type: 'journal',
+  },
+  {
+    year: '2025',
+    title: 'Federated Learning with Trust-aware Blockchain Fingerprinting: A Secure and Verifiable Framework for Edge AI',
+    authors: 'Phuc Tran-Vinh, Thai-Minh Truong, and Cuong Pham-Quoc',
+    venue: 'CsoNet 2025',
+    detail: 'The 14th International Conference on Computational Data and Social Networks.',
+    type: 'conference',
+  },
+  {
+    year: '2025',
+    title: 'FPGA-based Secure Federated Learning with CNN Inference and Hardware Cryptography',
+    authors: 'Phuc Tran-Vinh, and Cuong Pham-Quoc',
+    venue: 'MiWai 2025',
+    detail: 'https://link.springer.com/chapter/10.1007/978-981-95-4963-4_35',
+    type: 'conference',
+  },
+  {
+    year: '2025',
+    title: 'Environmental Fingerprint-Based Access Control for Edge-AI Inference on FPGA',
+    authors: 'Phuc Tran-Vinh, and Cuong Pham-Quoc',
+    venue: 'International Conference on Advances in Information and Communication Technology',
+    detail: 'https://link.springer.com/book/9783032181619',
+    type: 'conference',
+  },
+  {
+    year: '2025',
+    title: 'Edge AI: A Comprehensive Survey on Applications, Challenges, and Future Directions',
+    authors: 'Phuc Tran-Vinh, and Cuong Pham-Quoc',
+    venue: 'International Conference on Intelligent Aerial Access and Applications (IAAA)',
+    detail: 'https://link.springer.com/book/978303214934',
+    type: 'conference',
+  },
+   {
+    year: '2023',
+    title: 'APPLICATION OF LORA IN DATA TRANSFER IN AGRICULTURE',
+    authors: 'Phuc Tran-Vinh',
+    venue: 'FAIR 2023',
+    detail: 'hhttp://vap.ac.vn/proceedingvap/proceeding/article/view/1241',
+    type: 'conference',
+  },
+ 
+]

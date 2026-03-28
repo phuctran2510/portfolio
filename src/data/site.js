@@ -10,7 +10,7 @@ export const instructor = {
   scholar:  'https://scholar.google.com',
   avatar:   'PT',
   bio:      'Giảng viên chuyên ngành Mạng Máy Tính & Viễn thông. Nghiên cứu về Mạng Thế Hệ Mới (NGN), IPv6, Software-Defined Networking, VoIP và bảo mật hệ thống mạng, Internet of Things , Edge AI. ',
-  tags:     ['IPv6 / NGN', 'Software-Defined Networking', 'VoIP / Asterisk', 'Python', 'Network Security', 'QoS'],
+  tags:     ['IPv6 / NGN', 'Software-Defined Networking', 'VoIP / Asterisk', 'Python', 'Network Security', 'QoS', 'Edge AI', 'AIoT'],
   stats:    [
     { num: '10+',  lbl: '' },
     { num: '3',    lbl: '' },
@@ -88,6 +88,12 @@ export const research = [
     title: 'Bảo Mật Mạng & AI',
     desc:  'Phân tích và phòng thủ tấn công IPv6 (RA flood, DHCPv6 spoofing, BGP hijack), xây dựng SIEM và ứng dụng AI/ML để phát hiện anomaly trong lưu lượng mạng.',
     kws:   ['IPv6 First-Hop Sec', 'Zero Trust', 'SIEM/ELK', 'Anomaly Detection', 'Scapy', 'Fail2ban'],
+  },
+  {
+    num: '05', color: '#2804c7',
+    title: 'AIoT (Artificial Intelligence of Things)',
+    desc:  'AIoT = thiết bị IoT có khả năng “thông minh” nhờ AI.',
+    kws:   ['IoT cơ bản', 'AI cơ bản'],
   },
 ]
 

@@ -12,10 +12,10 @@ export const instructor = {
   bio:      'Giảng viên chuyên ngành Mạng Máy Tính & Viễn thông. Nghiên cứu về Mạng Thế Hệ Mới (NGN), IPv6, Software-Defined Networking, VoIP và bảo mật hệ thống mạng, Internet of Things , Edge AI. ',
   tags:     ['IPv6 / NGN', 'Software-Defined Networking', 'VoIP / Asterisk', 'Python', 'Network Security', 'QoS'],
   stats:    [
-    { num: '10+',  lbl: 'Năm giảng dạy' },
-    { num: '3',    lbl: 'Môn học online' },
-    { num: '15+',  lbl: 'Bài báo KH' },
-    { num: '200+', lbl: 'SV hướng dẫn' },
+    { num: '10+',  lbl: '' },
+    { num: '3',    lbl: '' },
+    { num: '15+',  lbl: '' },
+    { num: '200+', lbl: '' },
   ],
 }
 

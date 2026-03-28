@@ -39,7 +39,7 @@ export default function Courses() {
         <div className="section-label">Môn học</div>
         <h2 className="section-title">Giáo trình trực tuyến</h2>
         <p className="section-desc">
-          Ba hệ thống giáo trình tương tác với lab thực hành, lý thuyết, trắc nghiệm và đề tài nghiên cứu.
+          Hệ thống giáo trình tương tác với lab thực hành, lý thuyết, trắc nghiệm và đề tài nghiên cứu.
         </p>
         <div style={S.grid}>
           {courses.map(c => <CourseCard key={c.id} c={c}/>)}

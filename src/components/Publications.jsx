@@ -35,7 +35,7 @@ export default function Publications() {
         <div className="section-label">Công bố khoa học</div>
         <h2 className="section-title">Bài báo đã công bố</h2>
         <p className="section-desc" style={{marginBottom:'1.5rem'}}>
-          Các công trình nghiên cứu trong lĩnh vực mạng máy tính, SDN và bảo mật viễn thông.
+          Các công trình nghiên cứu .
         </p>
 
         {/* Filter */}

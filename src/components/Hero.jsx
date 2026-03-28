@@ -17,7 +17,7 @@ export default function Hero() {
 
           <p className="fu d2 hero-subtitle">
             {instructor.dept}<br/>
-            Mạng máy tính · NGN · VoIP · Bảo mật mạng
+            Mạng máy tính · NGN · VoIP · Bảo mật mạng · AIoT· Edge AI
           </p>
 
           <div className="fu d3 hero-tags">

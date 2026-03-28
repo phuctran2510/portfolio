@@ -22,7 +22,7 @@ export default function Research() {
         <div className="section-label">Hướng nghiên cứu</div>
         <h2 className="section-title">Lĩnh vực chuyên môn</h2>
         <p className="section-desc">
-          Nghiên cứu tập trung vào mạng thế hệ mới, tự động hóa mạng và bảo mật hệ thống viễn thông.
+          Nghiên cứu tập trung vào mạng thế hệ mới, tự động hóa mạng và bảo mật hệ thống , Trí tuệ nhân tạo cho IoT và bảo mật cho Edge AI.
         </p>
         <div style={S.grid}>
           {research.map((r, i) => <ResearchCard key={r.num} r={r} delay={i * 0.07}/>)}

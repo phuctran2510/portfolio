@@ -14,7 +14,7 @@ export const instructor = {
   stats:    [
     { num: '10+',  lbl: '' },
     { num: '4',    lbl: 'Môn học' },
-    { num: '50+',  lbl: 'Đề tài nghiên cứu' },
+    { num: '50+',  lbl: 'Đề tài cho SV nghiên cứu' },
     { num: '200+', lbl: 'Bài lab' },
   ],
 }

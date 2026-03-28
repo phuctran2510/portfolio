@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "build:gh": "VITE_BASE=/portfolio/ vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",

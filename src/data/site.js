@@ -24,7 +24,7 @@ export const courses = [
     id:    'ngn',
     num:   '01',
     cat:   'Mạng Thế Hệ Mới',
-    icon:  'NGN',
+    avatar:  'NGN',
     title: 'NGN / IPv6 Lab',
     color: '#2dd4bf',
     desc:  'Triển khai hạ tầng mạng IPv6 NGN hoàn chỉnh: OSPFv3, BGP multi-homing, PIM-SM Multicast, QoS, Cisco CME và FreePBX VoIP trên EVE-NG.',

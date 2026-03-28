@@ -120,7 +120,7 @@ export const publications = [
     authors: 'Phuc Tran-Vinh, and Cuong Pham-Quoc',
     venue: 'MiWai 2025',
     detail: 'https://link.springer.com/chapter/10.1007/978-981-95-4963-4_35',
-    type: ' conference',
+    type: 'conference',
   },
   {
     year: '2025',

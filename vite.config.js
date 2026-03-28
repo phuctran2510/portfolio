@@ -5,7 +5,7 @@ const base = process.env.VITE_BASE ?? '/'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/portfolio/",
+  base: "/",
   
   build: { sourcemap: false }
 })

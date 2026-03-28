@@ -69,11 +69,11 @@ export const courses = [
     icon:  'P',
     title: 'AIoT',
     color: '#fb923c',
-    desc:  'Lập trình Python từ cơ bản đến nâng cao: cấu trúc dữ liệu, OOP, xử lý file, web scraping, data analysis với Pandas và ứng dụng thực tế.',
-    tags:  ['Python 3', 'OOP', 'Data Analysis', 'Pandas', 'Flask', 'Automation'],
+    desc:  'Lập trình nhúng Arduino, ESP32, FPGA, TinyML, Edge AI, LoRa, MQTT — thực hành trên phần cứng thực tế. Phù hợp xu thế công nghiệp 4.0 và cơ hội khởi nghiệp công nghệ.',
+    tags:  ['Lập trình nhúng', 'TinyML & Edge AI', 'Hệ thống AIoT', 'Pandas', 'FPGA cho AIoTask', 'ESP-IDF & Lập trình chuyên sâu'],
     links: [
-      { label: 'tranvinhphuc.io.vn', url: 'https://python.tranvinhphuc.io.vn/', slug: 'python.tranvinhphuc.io.vn' },
-      { label: 'phuctran.io.vn',     url: 'https://python.phuctran.io.vn/',     slug: 'python.phuctran.io.vn' },
+      { label: 'tranvinhphuc.io.vn', url: 'https://aiot.tranvinhphuc.io.vn/', slug: 'aiot.tranvinhphuc.io.vn' },
+      { label: 'phuctran.io.vn',     url: 'https://aiot.phuctran.io.vn/',     slug: 'aiot.phuctran.io.vn' },
     ],
   },
 ]

@@ -62,6 +62,20 @@ export const courses = [
       { label: 'phuctran.io.vn',     url: 'https://python.phuctran.io.vn/',     slug: 'python.phuctran.io.vn' },
     ],
   },
+  {
+    id:    'aiot',
+    num:   '04',
+    cat:   'Lập Trình Nhúng',
+    icon:  'P',
+    title: 'AIoT',
+    color: '#fb923c',
+    desc:  'Lập trình Python từ cơ bản đến nâng cao: cấu trúc dữ liệu, OOP, xử lý file, web scraping, data analysis với Pandas và ứng dụng thực tế.',
+    tags:  ['Python 3', 'OOP', 'Data Analysis', 'Pandas', 'Flask', 'Automation'],
+    links: [
+      { label: 'tranvinhphuc.io.vn', url: 'https://python.tranvinhphuc.io.vn/', slug: 'python.tranvinhphuc.io.vn' },
+      { label: 'phuctran.io.vn',     url: 'https://python.phuctran.io.vn/',     slug: 'python.phuctran.io.vn' },
+    ],
+  },
 ]
 
 export const research = [

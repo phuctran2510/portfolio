@@ -98,7 +98,7 @@ export const publications = [
     authors: 'Phuc Tran-Vinh, Thai-Minh Truong, and Cuong Pham-Quoc',
     venue: '',
     detail: '',
-    type: 'Journal',
+    type: 'journal',
   },
   {
     year: '2025',
@@ -106,7 +106,7 @@ export const publications = [
     authors: 'Phuc Tran-Vinh, Thai-Minh Truong, and Cuong Pham-Quoc',
     venue: 'CsoNet 2025',
     detail: 'The 14th International Conference on Computational Data and Social Networks.',
-    type: 'Conference paper',
+    type: 'conference paper',
   },
   {
     year: '2025',

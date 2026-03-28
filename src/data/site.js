@@ -112,7 +112,7 @@ export const publications = [
     authors: 'Phuc Tran-Vinh, Thai-Minh Truong, and Cuong Pham-Quoc',
     venue: 'CsoNet 2025',
     detail: 'The 14th International Conference on Computational Data and Social Networks.',
-    type: 'conference paper',
+    type: 'conference',
   },
   {
     year: '2025',
@@ -120,7 +120,7 @@ export const publications = [
     authors: 'Phuc Tran-Vinh, and Cuong Pham-Quoc',
     venue: 'MiWai 2025',
     detail: 'https://link.springer.com/chapter/10.1007/978-981-95-4963-4_35',
-    type: ' Conference paper',
+    type: ' conference',
   },
   {
     year: '2025',
@@ -128,7 +128,7 @@ export const publications = [
     authors: 'Phuc Tran-Vinh, and Cuong Pham-Quoc',
     venue: 'International Conference on Advances in Information and Communication Technology',
     detail: 'https://link.springer.com/book/9783032181619',
-    type: 'Conference paper',
+    type: 'conference',
   },
   {
     year: '2025',
@@ -136,7 +136,7 @@ export const publications = [
     authors: 'Phuc Tran-Vinh, and Cuong Pham-Quoc',
     venue: 'International Conference on Intelligent Aerial Access and Applications (IAAA)',
     detail: 'https://link.springer.com/book/978303214934',
-    type: 'Conference paper',
+    type: 'conference',
   },
  
 ]

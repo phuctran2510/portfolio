@@ -168,11 +168,9 @@ export const publications = [
    {
     year: '2025',
     title: 'Load Balancing in Software Defined Networking using Round Robin Algorithm',
-    authors: (
-        <p>
-          TC Thanh, VD Hoang, DD Nguyen, TV Phuc <sup>*</sup>
-        </p>
-      ),
+    authors: 'TC Thanh, VD Hoang, DD Nguyen, TV Phuc',
+    corresponding: true,
+    
     venue: 'ICT 2025',
     detail: 'ISBN: 978-604-357-397-8',
     type: 'conference',

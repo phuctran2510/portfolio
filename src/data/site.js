@@ -156,7 +156,11 @@ export const publications = [
      {
     year: '2025',
     title: 'Quasi Real-Time Noise Recognition System',
-    authors: 'TT Hieu, PLX Manh, TV Phuc',
+    authors: (
+        <p>
+        TT Hieu, PLX Manh, TV Phuc<sup>*</sup>
+        </p>
+      ),
     venue: 'ICT 2025',
     detail: 'ISBN: 978-604-357-397-8',
     type: 'conference',
@@ -164,7 +168,11 @@ export const publications = [
    {
     year: '2025',
     title: 'Load Balancing in Software Defined Networking using Round Robin Algorithm',
-    authors: 'TC Thanh, VD Hoang, DD Nguyen, TV Phuc',
+    authors: (
+        <p>
+          TC Thanh, VD Hoang, DD Nguyen, TV Phuc <sup>*</sup>
+        </p>
+      ),
     venue: 'ICT 2025',
     detail: 'ISBN: 978-604-357-397-8',
     type: 'conference',

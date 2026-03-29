@@ -117,7 +117,7 @@ export const publications = [
     title: 'TrustAware-X: Integrating Game-Theoretic Incentives, Reinforcement Learning, and Shapley Value Fair Compensation in Blockchain-Secured Federated Learning',
     authors: 'Phuc Tran-Vinh, Thai-Minh Truong, and Cuong Pham-Quoc',
     venue: 'Journal of Combinatorial Optimization',
-    detail: '',
+    detail: 'Springer Nature Link',
     type: 'journal',
   },
   {

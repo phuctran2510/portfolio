@@ -72,7 +72,7 @@ export const courses = [
     desc:  'Lập trình nhúng Arduino, ESP32, FPGA, TinyML, Edge AI, LoRa, MQTT — thực hành trên phần cứng thực tế. Phù hợp xu thế công nghiệp 4.0 và cơ hội khởi nghiệp công nghệ.',
     tags:  ['Lập trình nhúng', 'TinyML & Edge AI', 'Hệ thống AIoT', 'Pandas', 'FPGA cho AIoTask', 'ESP-IDF & Lập trình chuyên sâu'],
     links: [
-      { label: 'Join Course Link 1', url: 'https://aiot.tranvinhphuc.io.vn/', slug: 'Join Course Link 1 },
+      { label: 'Join Course Link 1', url: 'https://aiot.tranvinhphuc.io.vn/', slug: 'Join Course Link 1' },
       { label: 'phuctran.io.vn',     url: 'https://aiot.phuctran.io.vn/',     slug: 'aiot.phuctran.io.vn' },
     ],
   },

@@ -30,7 +30,7 @@ export const courses = [
     desc:  'Triển khai hạ tầng mạng IPv6 NGN hoàn chỉnh: OSPFv3, BGP multi-homing, PIM-SM Multicast, QoS, Cisco CME và FreePBX VoIP trên EVE-NG.',
     tags:  ['IPv6', 'OSPFv3', 'BGP', 'VoIP', 'QoS', 'EVE-NG'],
     links: [
-      { label: 'tranvinhphuc.io.vn', url: 'https://ngn.tranvinhphuc.io.vn/', slug: 'ngn.tranvinhphuc.io.vn' },
+      { label: 'Join Course Link 1, url: 'https://ngn.tranvinhphuc.io.vn/', slug: 'ngn.tranvinhphuc.io.vn' },
       { label: 'phuctran.io.vn',     url: 'https://ngn.phuctran.io.vn/',     slug: 'ngn.phuctran.io.vn' },
     ],
   },
@@ -44,7 +44,7 @@ export const courses = [
     desc:  'Software-Defined Networking với Mininet, OpenFlow và Ryu controller: từ topology cơ bản đến DDoS detection và monitoring dashboard real-time.',
     tags:  ['SDN', 'OpenFlow', 'Mininet', 'Ryu', 'Python', 'Fat Tree'],
     links: [
-      { label: 'tranvinhphuc.io.vn', url: 'https://sdn.tranvinhphuc.io.vn/', slug: 'sdn.tranvinhphuc.io.vn' },
+      { label: 'Join Course Link 1', url: 'https://sdn.tranvinhphuc.io.vn/', slug: 'sdn.tranvinhphuc.io.vn' },
       { label: 'phuctran.io.vn',     url: 'https://sdn.phuctran.io.vn/',     slug: 'sdn.phuctran.io.vn' },
     ],
   },
@@ -58,7 +58,7 @@ export const courses = [
     desc:  'Lập trình Python từ cơ bản đến nâng cao: cấu trúc dữ liệu, OOP, xử lý file, web scraping, data analysis với Pandas và ứng dụng thực tế.',
     tags:  ['Python 3', 'OOP', 'Data Analysis', 'Pandas', 'Flask', 'Automation'],
     links: [
-      { label: 'tranvinhphuc.io.vn', url: 'https://python.tranvinhphuc.io.vn/', slug: 'python.tranvinhphuc.io.vn' },
+      { label: 'Join Course Link 1', url: 'https://python.tranvinhphuc.io.vn/', slug: 'python.tranvinhphuc.io.vn' },
       { label: 'phuctran.io.vn',     url: 'https://python.phuctran.io.vn/',     slug: 'python.phuctran.io.vn' },
     ],
   },
@@ -72,7 +72,7 @@ export const courses = [
     desc:  'Lập trình nhúng Arduino, ESP32, FPGA, TinyML, Edge AI, LoRa, MQTT — thực hành trên phần cứng thực tế. Phù hợp xu thế công nghiệp 4.0 và cơ hội khởi nghiệp công nghệ.',
     tags:  ['Lập trình nhúng', 'TinyML & Edge AI', 'Hệ thống AIoT', 'Pandas', 'FPGA cho AIoTask', 'ESP-IDF & Lập trình chuyên sâu'],
     links: [
-      { label: 'tranvinhphuc.io.vn', url: 'https://aiot.tranvinhphuc.io.vn/', slug: 'aiot.tranvinhphuc.io.vn' },
+      { label: 'Join Course Link 1', url: 'https://aiot.tranvinhphuc.io.vn/', slug: 'aiot.tranvinhphuc.io.vn' },
       { label: 'phuctran.io.vn',     url: 'https://aiot.phuctran.io.vn/',     slug: 'aiot.phuctran.io.vn' },
     ],
   },

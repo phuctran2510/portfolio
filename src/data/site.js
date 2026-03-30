@@ -106,7 +106,7 @@ export const research = [
   {
     num: '05', color: '#2804c7',
     title: 'AIoT (Artificial Intelligence of Things)',
-    desc:  'Xây dựng hệ thống IoT thông minh tích hợp AI trực tiếp tại thiết bị đầu cuối (Edge Inference). Triển khai mô hình TinyML nhận diện bất thường trên vi điều khiển ESP32/Arduino, kết hợp giao thức MQTT/CoAP với broker trung tâm, xây dựng pipeline dữ liệu thời gian thực từ sensor đến dashboard, ứng dụng FPGA để tăng tốc inference và nghiên cứu bảo mật cho hạ tầng AIoT công nghiệp (IIoT) trong bối cảnh Industry 4.0.',
+    desc:  'Xây dựng hệ thống AIoT Edge: triển khai TinyML phát hiện bất thường trên ESP32/Arduino, dùng MQTT/CoAP truyền dữ liệu thời gian thực tới broker và dashboard.',
      kws:   ['TinyML', 'ESP32 / Arduino', 'MQTT / CoAP', 'Edge Inference', 'FPGA Acceleration', 'Anomaly Detection', 'Node-RED', 'InfluxDB / Grafana', 'IIoT Security', 'LoRa / LoRaWAN'],
   },
   {

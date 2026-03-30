@@ -90,7 +90,7 @@ export const courses = [
       { label: 'Join Course Link 1', url: 'https://aiot.tranvinhphuc.io.vn/' },
       { label: 'Join Course Link 2',     url: 'https://aiot.phuctran.io.vn/' },
     ],
-  },
+  },s
 ]
 
 export const research = [

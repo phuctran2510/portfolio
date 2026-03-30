@@ -68,7 +68,7 @@ export const courses = [
     cat:   'Lập Trình Nhúng',
     icon:  'A',
     title: 'AIoT',
-    color: '#fb923c',
+    color: '#553cfb',
     desc:  'Lập trình nhúng Arduino, ESP32, FPGA, TinyML, Edge AI, LoRa, MQTT — thực hành trên phần cứng thực tế. Phù hợp xu thế công nghiệp 4.0 và cơ hội khởi nghiệp công nghệ.',
     tags:  ['Adversarial ML','Model Poisoning','Federated Learning','Blockchain Trust','FPGA Security','Environmental Fingerprint','Zero-Knowledge Proof]'],
     links: [
@@ -81,8 +81,8 @@ export const courses = [
     num:   '05',
     cat:   'Edge AI Security',
     icon:  'E',
-    title: 'EDAI',
-    color: '#fb923c',
+    title: 'EcAI',
+    color: '#d3f224',
     desc:  'Nghiên cứu chuyên sâu về các mối đe dọa và cơ chế bảo vệ hệ thống AI triển khai tại biên mạng.',
     tags:  ['Lập trình nhúng', 'TinyML & Edge AI', 'Hệ thống AIoT', 'Pandas', 'FPGA cho AIoTask', 'ESP-IDF & Lập trình chuyên sâu'],
     links: [

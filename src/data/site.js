@@ -81,7 +81,7 @@ export const courses = [
     num:   '05',
     cat:   'Edge AI Security ',
     icon:  'E',
-    title: 'Edge Computing AI ',
+    title: 'Edge Computing AI / Research ',
     color: '#d3f224',
     desc:  'Nghiên cứu chuyên sâu về các mối đe dọa và cơ chế bảo vệ hệ thống AI triển khai tại biên mạng.',
    

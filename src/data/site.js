@@ -81,7 +81,7 @@ export const courses = [
     num:   '05',
     cat:   'Edge AI Security ',
     icon:  'E',
-    title: 'Edge Computing / Lab',
+    title: 'EcAI ',
     color: '#d3f224',
     desc:  'Nghiên cứu chuyên sâu về các mối đe dọa và cơ chế bảo vệ hệ thống AI triển khai tại biên mạng.',
    
@@ -90,7 +90,7 @@ export const courses = [
       { label: 'Join Course Link 1', url: 'https://aiot.tranvinhphuc.io.vn/' },
       { label: 'Join Course Link 2',     url: 'https://aiot.phuctran.io.vn/' },
     ],
-  },s
+  },
 ]
 
 export const research = [

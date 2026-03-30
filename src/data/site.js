@@ -53,7 +53,7 @@ export const courses = [
     num:   '03',
     cat:   'Lập Trình Python',
     icon:  'P',
-    title: 'Python Mastery  / Lab',
+    title: 'Python / Lab',
     color: '#fb923c',
     desc:  'Lập trình Python từ cơ bản đến nâng cao: cấu trúc dữ liệu, OOP, xử lý file, web scraping, data analysis với Pandas và ứng dụng thực tế.',
     tags:  ['Python 3', 'OOP', 'Data Analysis', 'Pandas', 'Flask', 'Automation'],

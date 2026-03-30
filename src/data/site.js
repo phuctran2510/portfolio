@@ -112,7 +112,7 @@ export const research = [
   {
     num: '06', color: '#a78bfa',
     title: 'Bảo Mật Edge AI & Federated Learning',
-    desc:  'Nghiên cứu các mối đe dọa và cơ chế bảo mật đặc thù cho hệ thống AI triển khai tại biên mạng (Edge AI). Phân tích các vector tấn công nhắm vào mô hình học máy: adversarial examples, model inversion, membership inference và model poisoning. Xây dựng khung bảo mật tích hợp Federated Learning để huấn luyện mô hình phân tán mà không chia sẻ dữ liệu thô, kết hợp Blockchain để xác thực tính toàn vẹn của gradient update, mã hóa đồng cấu (Homomorphic Encryption) và cơ chế Environmental Fingerprinting để kiểm soát truy cập inference trên FPGA.',
+    desc:  'Phân tích mối đe dọa Edge AI (adversarial, inversion, membership inference, poisoning) và nghiên cứu khung bảo mật: Federated Learning, Blockchain (toàn vẹn gradient), Homomorphic Encryption và Environmental Fingerprinting trên FPGA.',
     kws:   ['Adversarial ML', 'Model Poisoning', 'Federated Learning', 'Blockchain Trust', 'Homomorphic Encryption', 'Differential Privacy', 'FPGA Security', 'Environmental Fingerprint', 'Secure Aggregation', 'Zero-Knowledge Proof'],
   },
 

@@ -68,9 +68,9 @@ export const courses = [
     cat:   'Lập Trình Nhúng',
     icon:  'A',
     title: 'AIoT',
-    color: '#553cfb',
+    color: '#3cfb4c',
     desc:  'Lập trình nhúng Arduino, ESP32, FPGA, TinyML, Edge AI, LoRa, MQTT — thực hành trên phần cứng thực tế. Phù hợp xu thế công nghiệp 4.0 và cơ hội khởi nghiệp công nghệ.',
-    tags:  ['Adversarial ML','Model Poisoning','Federated Learning','Blockchain Trust','FPGA Security','Environmental Fingerprint','Zero-Knowledge Proof]'],
+     tags:  ['Lập trình nhúng', 'TinyML & Edge AI', 'Hệ thống AIoT', 'Pandas', 'FPGA cho AIoTask', 'ESP-IDF & Lập trình chuyên sâu'],
     links: [
       { label: 'Join Course Link 1', url: 'https://edge.tranvinhphuc.io.vn/' },
       { label: 'pJoin Course Link 2',     url: 'https://edge.phuctran.io.vn/' },
@@ -84,7 +84,8 @@ export const courses = [
     title: 'EcAI',
     color: '#d3f224',
     desc:  'Nghiên cứu chuyên sâu về các mối đe dọa và cơ chế bảo vệ hệ thống AI triển khai tại biên mạng.',
-    tags:  ['Lập trình nhúng', 'TinyML & Edge AI', 'Hệ thống AIoT', 'Pandas', 'FPGA cho AIoTask', 'ESP-IDF & Lập trình chuyên sâu'],
+   
+    tags:  ['Adversarial ML','Model Poisoning','Federated Learning','Blockchain Trust','FPGA Security','Environmental Fingerprint','Zero-Knowledge Proof'],
     links: [
       { label: 'Join Course Link 1', url: 'https://aiot.tranvinhphuc.io.vn/' },
       { label: 'pJoin Course Link 2',     url: 'https://aiot.phuctran.io.vn/' },

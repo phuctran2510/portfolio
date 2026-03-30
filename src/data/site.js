@@ -109,6 +109,12 @@ export const research = [
     desc:  'Xây dựng hệ thống IoT thông minh tích hợp AI trực tiếp tại thiết bị đầu cuối (Edge Inference). Triển khai mô hình TinyML nhận diện bất thường trên vi điều khiển ESP32/Arduino, kết hợp giao thức MQTT/CoAP với broker trung tâm, xây dựng pipeline dữ liệu thời gian thực từ sensor đến dashboard, ứng dụng FPGA để tăng tốc inference và nghiên cứu bảo mật cho hạ tầng AIoT công nghiệp (IIoT) trong bối cảnh Industry 4.0.',
      kws:   ['TinyML', 'ESP32 / Arduino', 'MQTT / CoAP', 'Edge Inference', 'FPGA Acceleration', 'Anomaly Detection', 'Node-RED', 'InfluxDB / Grafana', 'IIoT Security', 'LoRa / LoRaWAN'],
   },
+  {
+    num: '06', color: '#a78bfa',
+    title: 'Bảo Mật Edge AI & Federated Learning',
+    desc:  'Nghiên cứu các mối đe dọa và cơ chế bảo mật đặc thù cho hệ thống AI triển khai tại biên mạng (Edge AI). Phân tích các vector tấn công nhắm vào mô hình học máy: adversarial examples, model inversion, membership inference và model poisoning. Xây dựng khung bảo mật tích hợp Federated Learning để huấn luyện mô hình phân tán mà không chia sẻ dữ liệu thô, kết hợp Blockchain để xác thực tính toàn vẹn của gradient update, mã hóa đồng cấu (Homomorphic Encryption) và cơ chế Environmental Fingerprinting để kiểm soát truy cập inference trên FPGA.',
+    kws:   ['Adversarial ML', 'Model Poisoning', 'Federated Learning', 'Blockchain Trust', 'Homomorphic Encryption', 'Differential Privacy', 'FPGA Security', 'Environmental Fingerprint', 'Secure Aggregation', 'Zero-Knowledge Proof'],
+  },
 
 ]
 

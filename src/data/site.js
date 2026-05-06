@@ -95,15 +95,15 @@ export const courses = [
     id:    'cntt',
     num:   '06',
     cat:   'Ứng Dụng CNTT trong Dạy Học Tiểu Học ',
-    icon:  'u',
+    icon:  'U',
     title: 'Ứng Dụng CNTT trong Dạy Học Tiểu Học ',
     color: '#d3f224',
     desc:  'Trang bị năng lực số toàn diện theo khung DigComp 2.2 cho giáo viên tiểu học: Từ thiết kế học liệu số, dạy học trực tuyến, đánh giá số đến tích hợp AI trong lớp học.',
    
     tags:  ['UNESCO ICT-CFT Version 3.0','Google Sites','DigComp radar','Prompt Engineering','ChatGPT','AI Ethics','Google Classroom'],
     links: [
-      { label: 'Join Course Link 1', url: 'https://edge.tranvinhphuc.io.vn/' },
-      { label: 'Join Course Link 2',     url: 'https://edge.phuctran.io.vn/' },
+      { label: 'Join Course Link 1', url: 'https://cntt.tranvinhphuc.io.vn/' },
+      { label: 'Join Course Link 2',     url: 'https://cntt.phuctran.io.vn/' },
     ],
   },
 ]

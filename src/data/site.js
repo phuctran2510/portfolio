@@ -82,7 +82,11 @@ export const courses = [
     cat:   'Edge AI Security ',
     icon:  'E',
     title: 'Edge Computing AI / Research ',
+<<<<<<< HEAD
     color: '#35dfc8',
+=======
+    color: '#d3f224',
+>>>>>>> 6972f054193ce1a17101bc05ea186d5ffb27fd91
     desc:  'Nghiên cứu chuyên sâu về các mối đe dọa và cơ chế bảo vệ hệ thống AI triển khai tại biên mạng.',
    
     tags:  ['Adversarial ML','Model Poisoning','Federated Learning','Blockchain Trust','FPGA Security','Environmental Fingerprint','Zero-Knowledge Proof'],
@@ -106,6 +110,7 @@ export const courses = [
       { label: 'Join Course Link 2',     url: 'https://cntt.phuctran.io.vn/' },
     ],
   },
+<<<<<<< HEAD
   {
     id:    'web',
     num:   '07',
@@ -121,6 +126,8 @@ export const courses = [
       { label: 'Join Course Link 2',     url: 'https://tkw.phuctran.io.vn/' },
     ],
   },
+=======
+>>>>>>> 6972f054193ce1a17101bc05ea186d5ffb27fd91
 ]
 
 export const research = [

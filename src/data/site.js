@@ -4,7 +4,7 @@ export const instructor = {
   title:    'Giảng viên Khoa Công nghệ Thông tin',
   dept:     'Khoa Công nghệ Thông tin',
   uni:      'Trường Đại học Đà Lạt (DLU)',
-  city:     'Phường Xuân Hương - Đà Lạt,Lâm Đồng, Việt Nam',
+  city:     'Phường Xuân Hương - Đà Lạt, Lâm Đồng, Việt Nam',
   email:    'phuctv@dlu.edu.vn',
   phone:    '0976 353 605',
   scholar:  'https://scholar.google.com',
@@ -12,10 +12,10 @@ export const instructor = {
   bio:      'Giảng viên chuyên ngành Mạng Máy Tính & Viễn thông. Nghiên cứu về Mạng Thế Hệ Mới (NGN), IPv6, Software-Defined Networking, VoIP và bảo mật hệ thống mạng, Internet of Things , Edge AI. ',
   tags:     ['IPv6 / NGN', 'Software-Defined Networking', 'VoIP / Asterisk', 'Python', 'Network Security', 'QoS', 'Edge AI', 'AIoT'],
   stats:    [
-    { num: '10+',  lbl: '' },
-    { num: '3',    lbl: '' },
-    { num: '15+',  lbl: '' },
-    { num: '200+', lbl: '' },
+    { num: '2010',  lbl: 'Giảng dạy từ' },
+    { num: '4',    lbl: 'Môn học' },
+    { num: '50+',  lbl: 'Đề tài cho SV nghiên cứu' },
+    { num: '200+', lbl: 'Bài lab' },
   ],
 }
 
@@ -25,13 +25,13 @@ export const courses = [
     num:   '01',
     cat:   'Mạng Thế Hệ Mới',
     icon:  'N',
-    title: 'NGN / IPv6 Lab',
+    title: 'NGN / Lab',
     color: '#2dd4bf',
     desc:  'Triển khai hạ tầng mạng IPv6 NGN hoàn chỉnh: OSPFv3, BGP multi-homing, PIM-SM Multicast, QoS, Cisco CME và FreePBX VoIP trên EVE-NG.',
     tags:  ['IPv6', 'OSPFv3', 'BGP', 'VoIP', 'QoS', 'EVE-NG'],
     links: [
-      { label: 'tranvinhphuc.io.vn', url: 'https://ngn.tranvinhphuc.io.vn/', slug: 'ngn.tranvinhphuc.io.vn' },
-      { label: 'phuctran.io.vn',     url: 'https://ngn.phuctran.io.vn/',     slug: 'ngn.phuctran.io.vn' },
+      { label: 'Join Course Link 1', url: 'https://ngn.tranvinhphuc.io.vn/' },
+      { label: 'Join Course Link 2',     url: 'https://ngn.phuctran.io.vn/' },
     ],
   },
   {
@@ -39,27 +39,86 @@ export const courses = [
     num:   '02',
     cat:   'Mạng Định Nghĩa Bằng Phần Mềm',
     icon:  'S',
-    title: 'SDN / Mininet Lab',
+    title: 'SDN / Lab',
     color: '#818cf8',
     desc:  'Software-Defined Networking với Mininet, OpenFlow và Ryu controller: từ topology cơ bản đến DDoS detection và monitoring dashboard real-time.',
     tags:  ['SDN', 'OpenFlow', 'Mininet', 'Ryu', 'Python', 'Fat Tree'],
     links: [
-      { label: 'tranvinhphuc.io.vn', url: 'https://sdn.tranvinhphuc.io.vn/', slug: 'sdn.tranvinhphuc.io.vn' },
-      { label: 'phuctran.io.vn',     url: 'https://sdn.phuctran.io.vn/',     slug: 'sdn.phuctran.io.vn' },
+      { label: 'Join Course Link 1', url: 'https://sdn.tranvinhphuc.io.vn/' },
+      { label: 'Join Course Link 2',     url: 'https://sdn.phuctran.io.vn/' },
     ],
   },
   {
     id:    'python',
     num:   '03',
-    cat:   'Lập Trình',
+    cat:   'Lập Trình Python',
     icon:  'P',
-    title: 'Python Mastery',
+    title: 'Python / Lab',
     color: '#fb923c',
     desc:  'Lập trình Python từ cơ bản đến nâng cao: cấu trúc dữ liệu, OOP, xử lý file, web scraping, data analysis với Pandas và ứng dụng thực tế.',
     tags:  ['Python 3', 'OOP', 'Data Analysis', 'Pandas', 'Flask', 'Automation'],
     links: [
-      { label: 'tranvinhphuc.io.vn', url: 'https://python.tranvinhphuc.io.vn/', slug: 'python.tranvinhphuc.io.vn' },
-      { label: 'phuctran.io.vn',     url: 'https://python.phuctran.io.vn/',     slug: 'python.phuctran.io.vn' },
+      { label: 'Join Course Link 1', url: 'https://python.tranvinhphuc.io.vn/' },
+      { label: 'Join Course Link 2',     url: 'https://python.phuctran.io.vn/' },
+    ],
+  },
+  {
+    id:    'aiot',
+    num:   '04',
+    cat:   'IoT kết hợp AI',
+    icon:  'A',
+    title: 'AIoT / Lab',
+    color: '#3cfb4c',
+    desc:  'Lập trình nhúng Arduino, ESP32, FPGA, TinyML, Edge AI, LoRa, MQTT — thực hành trên phần cứng thực tế. Phù hợp xu thế công nghiệp 4.0 và cơ hội khởi nghiệp công nghệ.',
+     tags:  ['Lập trình nhúng', 'TinyML & Edge AI', 'Hệ thống AIoT', 'Pandas', 'FPGA cho AIoTask', 'ESP-IDF & Lập trình chuyên sâu'],
+    links: [
+      { label: 'Join Course Link 1', url: 'https://aiot.tranvinhphuc.io.vn/' },
+      { label: 'Join Course Link 2',     url: 'https://aiot.phuctran.io.vn/' },
+    ],
+  },
+    {
+    id:    'edge',
+    num:   '05',
+    cat:   'Edge AI Security ',
+    icon:  'E',
+    title: 'Edge Computing AI / Research ',
+    color: '#35dfc8',
+    desc:  'Nghiên cứu chuyên sâu về các mối đe dọa và cơ chế bảo vệ hệ thống AI triển khai tại biên mạng.',
+   
+    tags:  ['Adversarial ML','Model Poisoning','Federated Learning','Blockchain Trust','FPGA Security','Environmental Fingerprint','Zero-Knowledge Proof'],
+    links: [
+      { label: 'Join Course Link 1', url: 'https://edge.tranvinhphuc.io.vn/' },
+      { label: 'Join Course Link 2',     url: 'https://edge.phuctran.io.vn/' },
+    ],
+  },
+   {
+    id:    'cntt',
+    num:   '06',
+    cat:   'Ứng Dụng CNTT trong Dạy Học Tiểu Học ',
+    icon:  'U',
+    title: 'Ứng Dụng CNTT trong Dạy Học Tiểu Học ',
+    color: '#d3f224',
+    desc:  'Trang bị năng lực số toàn diện theo khung DigComp 2.2 cho giáo viên tiểu học: Từ thiết kế học liệu số, dạy học trực tuyến, đánh giá số đến tích hợp AI trong lớp học.',
+   
+    tags:  ['UNESCO ICT-CFT Version 3.0','Google Sites','DigComp radar','Prompt Engineering','ChatGPT','AI Ethics','Google Classroom'],
+    links: [
+      { label: 'Join Course Link 1', url: 'https://cntt.tranvinhphuc.io.vn/' },
+      { label: 'Join Course Link 2',     url: 'https://cntt.phuctran.io.vn/' },
+    ],
+  },
+  {
+    id:    'web',
+    num:   '07',
+    cat:   'Thiết Kế Web ',
+    icon:  'W',
+    title: 'Thiết Kế Web ',
+    color: '#7babe9',
+    desc:  'HTML ngữ nghĩa, CSS Grid & container query, JavaScript hiện đại, React + Vite, tối ưu ảnh AVIF/WebP, accessibility và quy trình CI/CD chuyên nghiệp trên GitHub Pages, Vercel, Netlif',
+   
+    tags:  ['HTML5 ngữ nghĩa','CSS ', 'JavaScript ', 'React ', 'CI/CD','Deploy'],
+    links: [
+      { label: 'Join Course Link 1', url: 'https://tkw.tranvinhphuc.io.vn/' },
+      { label: 'Join Course Link 2',     url: 'https://tkw.phuctran.io.vn/' },
     ],
   },
 ]
@@ -92,9 +151,16 @@ export const research = [
   {
     num: '05', color: '#2804c7',
     title: 'AIoT (Artificial Intelligence of Things)',
-    desc:  'AIoT = thiết bị IoT có khả năng “thông minh” nhờ AI.',
-    kws:   ['IoT cơ bản', 'AI cơ bản'],
+    desc:  'Xây dựng hệ thống AIoT Edge: triển khai TinyML phát hiện bất thường trên ESP32/Arduino, dùng MQTT/CoAP truyền dữ liệu thời gian thực tới broker và dashboard.',
+     kws:   ['TinyML', 'ESP32 / Arduino', 'MQTT / CoAP', 'Edge Inference', 'FPGA Acceleration', 'Anomaly Detection', 'Node-RED', 'InfluxDB / Grafana', 'IIoT Security', 'LoRa / LoRaWAN'],
   },
+  {
+    num: '06', color: '#a78bfa',
+    title: 'Bảo Mật Edge AI & Federated Learning',
+    desc:  'Phân tích mối đe dọa Edge AI (adversarial, inversion, membership inference, poisoning) và nghiên cứu khung bảo mật: Federated Learning, Blockchain (toàn vẹn gradient), Homomorphic Encryption và Environmental Fingerprinting trên FPGA.',
+    kws:   ['Adversarial ML', 'Model Poisoning', 'Federated Learning', 'Blockchain Trust', 'Homomorphic Encryption', 'Differential Privacy', 'FPGA Security', 'Environmental Fingerprint', 'Secure Aggregation', 'Zero-Knowledge Proof'],
+  },
+
 ]
 
 export const publications = [
@@ -103,7 +169,7 @@ export const publications = [
     title: 'TrustAware-X: Integrating Game-Theoretic Incentives, Reinforcement Learning, and Shapley Value Fair Compensation in Blockchain-Secured Federated Learning',
     authors: 'Phuc Tran-Vinh, Thai-Minh Truong, and Cuong Pham-Quoc',
     venue: 'Journal of Combinatorial Optimization',
-    detail: '',
+    detail: 'Springer Nature Link',
     type: 'journal',
   },
   {
@@ -136,6 +202,49 @@ export const publications = [
     authors: 'Phuc Tran-Vinh, and Cuong Pham-Quoc',
     venue: 'International Conference on Intelligent Aerial Access and Applications (IAAA)',
     detail: 'https://link.springer.com/book/978303214934',
+    type: 'conference',
+  },
+   
+     {
+    year: '2025',
+    title: 'Quasi Real-Time Noise Recognition System',
+    authors: ' TT Hieu, PLX Manh, TV Phuc *',
+    venue: 'ICT 2025',
+    detail: 'ISBN: 978-604-357-397-8',
+    type: 'conference',
+  },
+   {
+    year: '2025',
+    title: 'Load Balancing in Software Defined Networking using Round Robin Algorithm',
+    authors: 'TC Thanh, VD Hoang, DD Nguyen, TV Phuc *',
+    corresponding: true,
+    
+    venue: 'ICT 2025',
+    detail: 'ISBN: 978-604-357-397-8',
+    type: 'conference',
+  },
+    {
+    year: '2024',
+    title: 'ỨNG DỤNG VANET VÀ IoT TRONG QUẢN LÝ HỆ THỐNG GIAO THÔNG THÔNG MINH',
+    authors: 'Phuc Tran-Vinh',
+    venue: 'ICT 2024',
+    detail: 'ISBB: 978-604-4984-22-3',
+    type: 'conference',
+  },
+   {
+    year: '2023',
+    title: 'Ứng dụng lora trong việc chuyển tiếp dữ liệu trong nông nghiệp',
+    authors: 'Phuc Tran-Vinh',
+    venue: 'ICT 2023',
+    detail: 'SBN: 978-604-67-2730-9',
+    type: 'conference',
+  },
+   {
+    year: '2021',
+    title: 'APPLICATION OF SEMANTIC WEB TECHNOLOGY IN BUILDING TOURISM INFORMATION SUPPORT SYSTEM',
+    authors: 'Phuc Tran-Vinh',
+    venue: 'FAIR 2021 ',
+    detail: 'http://vap.ac.vn/proceedingvap/proceeding/article/view/803',
     type: 'conference',
   },
  

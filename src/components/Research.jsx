@@ -7,6 +7,10 @@ function ResearchCard({ r, delay }) {
     <div ref={ref} className="reveal" style={{...S.card, transitionDelay:`${delay}s`}}>
       <div style={S.num(r.color)}>{r.num}</div>
       <h3 style={S.title}>{r.title}</h3>
+       <p style={S.desc}>
+        {r.authors}
+        {r.corresponding && <sup>*</sup>}
+      </p>
       <p style={S.desc}>{r.desc}</p>
       <div style={S.kws}>
         {r.kws.map(k => <span key={k} style={S.kw}>{k}</span>)}

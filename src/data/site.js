@@ -13,7 +13,7 @@ export const instructor = {
   tags:     ['IPv6 / NGN', 'Software-Defined Networking', 'VoIP / Asterisk', 'Python', 'Network Security', 'QoS', 'Edge AI', 'AIoT'],
   stats:    [
     { num: '2010',  lbl: 'Giảng dạy từ' },
-    { num: '4',    lbl: 'Môn học' },
+    { num: '7',    lbl: 'Môn học' },
     { num: '50+',  lbl: 'Đề tài cho SV nghiên cứu' },
     { num: '200+', lbl: 'Bài lab' },
   ],

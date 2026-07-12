@@ -82,11 +82,7 @@ export const courses = [
     cat:   'Edge AI Security ',
     icon:  'E',
     title: 'Edge Computing AI / Research ',
-<<<<<<< HEAD
-    color: '#35dfc8',
-=======
     color: '#d3f224',
->>>>>>> 6972f054193ce1a17101bc05ea186d5ffb27fd91
     desc:  'Nghiên cứu chuyên sâu về các mối đe dọa và cơ chế bảo vệ hệ thống AI triển khai tại biên mạng.',
    
     tags:  ['Adversarial ML','Model Poisoning','Federated Learning','Blockchain Trust','FPGA Security','Environmental Fingerprint','Zero-Knowledge Proof'],
@@ -101,7 +97,7 @@ export const courses = [
     cat:   'Ứng Dụng CNTT trong Dạy Học Tiểu Học ',
     icon:  'U',
     title: 'Ứng Dụng CNTT trong Dạy Học Tiểu Học ',
-    color: '#d3f224',
+    color: '#47f0cb',
     desc:  'Trang bị năng lực số toàn diện theo khung DigComp 2.2 cho giáo viên tiểu học: Từ thiết kế học liệu số, dạy học trực tuyến, đánh giá số đến tích hợp AI trong lớp học.',
    
     tags:  ['UNESCO ICT-CFT Version 3.0','Google Sites','DigComp radar','Prompt Engineering','ChatGPT','AI Ethics','Google Classroom'],
@@ -110,7 +106,7 @@ export const courses = [
       { label: 'Join Course Link 2',     url: 'https://cntt.phuctran.io.vn/' },
     ],
   },
-<<<<<<< HEAD
+
   {
     id:    'web',
     num:   '07',
@@ -126,8 +122,7 @@ export const courses = [
       { label: 'Join Course Link 2',     url: 'https://tkw.phuctran.io.vn/' },
     ],
   },
-=======
->>>>>>> 6972f054193ce1a17101bc05ea186d5ffb27fd91
+
 ]
 
 export const research = [
